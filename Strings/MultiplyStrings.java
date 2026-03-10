@@ -1,4 +1,5 @@
 /*
+Problem no.: 43
 Problem: Multiply Strings
 Platform: LeetCode
 Difficulty: Medium
