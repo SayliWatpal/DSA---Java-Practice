@@ -1,3 +1,19 @@
+/*
+Problem no.: 121
+Problem: Best Time to Buy and Sell Stock
+Platform: LeetCode
+Difficulty: Easy
+
+Approach:
+The idea is to find the maximum profit by making only one transaction.
+We traverse the array once while keeping track of the minimum price seen so far.
+For each day, we calculate the profit by subtracting the minimum price from the current price.
+If this profit is greater than the current maximum profit, we update it.
+If the current price is smaller than the minimum price, we update the minimum price.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 
 public class stock {
     public static void main(String[] args) {
