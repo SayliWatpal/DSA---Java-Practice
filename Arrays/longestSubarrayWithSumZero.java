@@ -27,11 +27,11 @@ public class practice {
     public static void main(String[] args) {
         int[] array = {9, -3, 3, -1, 6, -5} ;
 
-        int ans = longestSubarrayWithSumZero(array,15);
+        int ans = longestSubarrayWithSumZero(array);
         System.out.println(ans);
     }
 
-    public static int longestSubarrayWithSumZero(int[] array,int x) {
+    public static int longestSubarrayWithSumZero(int[] array) {
         int n = array.length;
         int maxLen = 0;
 
@@ -74,11 +74,11 @@ public class practice {
     public static void main(String[] args) {
         int[] array = {9, -3, 3, -1, 6, -5} ;
 
-        int ans = longestSubarrayWithSumZero(array,15);
+        int ans = longestSubarrayWithSumZero(array);
         System.out.println(ans);
     }
 
-    public static int longestSubarrayWithSumZero(int[] array,int x) {
+    public static int longestSubarrayWithSumZero(int[] array) {
         int n = array.length;
         int maxLen = 0;
         int sum = 0;
